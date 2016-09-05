@@ -4,7 +4,7 @@
   "description": "Parser for the V8's -gc_trace option with export to csv",
   "main": "index.js",
   "bin": {
-    "gc-trace-parser-csv": "./index.js"
+    "gc-trace-parser-csv": "./bin/gc-trace-parser-csv.js"
   },
   "directories": {
     "example": "examples",
