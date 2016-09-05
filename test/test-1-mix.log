@@ -1,0 +1,42 @@
+[31280:0x102004600]        8 ms: Scavenge 2.1 (37.0) -> 2.1 (37.0) MB, 0.7 / 0 ms [allocation failure].
+[31280:0x102004600]        9 ms: Scavenge 2.1 (37.0) -> 2.1 (38.0) MB, 0.6 / 0 ms [allocation failure].
+[31280:0x102004600]      146 ms: Scavenge 3.9 (41.0) -> 3.6 (41.0) MB, 0.8 / 0 ms [allocation failure].
+[31280:0x102004600]      361 ms: Scavenge 4.9 (41.0) -> 4.5 (42.0) MB, 3.0 / 0 ms [allocation failure].
+[31280:0x102004600]      678 ms: Scavenge 5.5 (42.0) -> 5.5 (43.0) MB, 4.4 / 0 ms [allocation failure].
+[31280:0x102004600]     1504 ms: Scavenge 8.5 (43.0) -> 8.5 (44.0) MB, 7.1 / 0 ms [allocation failure].
+[31280:0x102004600]     1719 ms: Scavenge 9.4 (44.0) -> 9.4 (47.0) MB, 9.3 / 0 ms [allocation failure].
+[31280:0x102004600]     3584 ms: Scavenge 16.3 (47.0) -> 16.3 (48.0) MB, 11.1 / 0 ms [allocation failure].
+[31280:0x102004600]     3903 ms: Scavenge 17.3 (48.0) -> 17.3 (55.0) MB, 14.9 / 0 ms [allocation failure].
+[31280:0x102004600]     7967 ms: Scavenge 32.1 (55.0) -> 32.1 (56.0) MB, 33.0 / 0 ms [allocation failure].
+[31280:0x102004600]   104343 ms: Scavenge 386.1 (414.0) -> 385.8 (429.0) MB, 41.2 / 0 ms (+ 257.7 ms in 1242 steps since last GC) [allocation failure].
+[31280:0x102004600]   113809 ms: Mark-sweep 421.0 (465.0) -> 420.7 (466.0) MB, 7.0 / 0 ms (+ 302.4 ms in 1360 steps since start of marking, biggest step 1.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   132169 ms: Mark-sweep 488.2 (534.0) -> 106.7 (156.0) MB, 4.4 / 0 ms (+ 66.2 ms in 17 steps since start of marking, biggest step 51.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   142963 ms: Mark-sweep 146.4 (187.0) -> 146.4 (187.0) MB, 0.8 / 0 ms (+ 83.7 ms in 17 steps since start of marking, biggest step 68.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   157690 ms: Mark-sweep 200.6 (242.0) -> 200.3 (243.0) MB, 0.7 / 0 ms (+ 118.3 ms in 17 steps since start of marking, biggest step 102.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   173478 ms: Mark-sweep 258.3 (301.0) -> 258.3 (301.0) MB, 0.6 / 0 ms (+ 146.4 ms in 17 steps since start of marking, biggest step 132.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   196028 ms: Mark-sweep 341.1 (385.0) -> 341.1 (386.0) MB, 0.7 / 0 ms (+ 187.2 ms in 32 steps since start of marking, biggest step 155.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   214369 ms: Mark-sweep 408.6 (454.0) -> 27.2 (79.0) MB, 0.8 / 0 ms (+ 22.4 ms in 17 steps since start of marking, biggest step 13.3 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   214567 ms: Scavenge 28.1 (79.0) -> 27.9 (79.0) MB, 1.9 / 0 ms [allocation failure].
+[31280:0x102004600]   214675 ms: Scavenge 28.2 (79.0) -> 28.2 (79.0) MB, 1.8 / 0 ms [allocation failure].
+[31280:0x102004600]   214882 ms: Scavenge 28.9 (79.0) -> 28.9 (79.0) MB, 1.7 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   215199 ms: Scavenge 30.1 (79.0) -> 30.1 (80.0) MB, 4.0 / 0 ms (+ 0.9 ms in 10 steps since last GC) [allocation failure].
+[31280:0x102004600]   215415 ms: Scavenge 30.8 (80.0) -> 30.8 (81.0) MB, 5.3 / 0 ms (+ 2.2 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   215739 ms: Scavenge 32.1 (81.0) -> 32.1 (82.0) MB, 4.7 / 0 ms (+ 4.8 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   947117 ms: Scavenge 47.8 (79.0) -> 47.8 (79.0) MB, 14.8 / 0 ms (+ 6.7 ms in 114 steps since last GC) [allocation failure].
+[31280:0x102004600]   947238 ms: Scavenge 48.5 (79.0) -> 48.5 (87.0) MB, 15.7 / 0 ms (+ 2.7 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   950365 ms: Mark-sweep 59.7 (87.0) -> 59.7 (88.0) MB, 18.2 / 0 ms (+ 48.6 ms in 306 steps since start of marking, biggest step 9.1 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   965531 ms: Mark-sweep 115.9 (144.0) -> 115.7 (156.0) MB, 13.9 / 0 ms (+ 74.5 ms in 38 steps since start of marking, biggest step 12.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   986144 ms: Mark-sweep 191.6 (233.0) -> 191.6 (234.0) MB, 1.2 / 0 ms (+ 119.0 ms in 34 steps since start of marking, biggest step 33.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1014717 ms: Mark-sweep 296.5 (339.0) -> 296.5 (339.0) MB, 2.8 / 0 ms (+ 183.0 ms in 49 steps since start of marking, biggest step 37.2 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1035802 ms: Mark-sweep 373.9 (418.0) -> 373.9 (418.0) MB, 1.1 / 0 ms (+ 228.6 ms in 50 steps since start of marking, biggest step 46.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1056560 ms: Mark-sweep 450.2 (496.0) -> 68.7 (115.0) MB, 0.9 / 0 ms (+ 44.1 ms in 17 steps since start of marking, biggest step 28.9 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1069301 ms: Mark-sweep 115.7 (156.0) -> 115.7 (157.0) MB, 0.5 / 0 ms (+ 66.7 ms in 17 steps since start of marking, biggest step 55.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1088642 ms: Mark-sweep 186.6 (228.0) -> 186.6 (228.0) MB, 0.5 / 0 ms (+ 105.1 ms in 32 steps since start of marking, biggest step 59.5 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1114565 ms: Mark-sweep 281.6 (324.0) -> 281.6 (324.0) MB, 0.6 / 0 ms (+ 163.7 ms in 47 steps since start of marking, biggest step 70.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1142896 ms: Mark-sweep 385.3 (430.0) -> 385.3 (430.0) MB, 0.7 / 0 ms (+ 211.9 ms in 47 steps since start of marking, biggest step 80.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1161220 ms: Mark-sweep 452.5 (498.0) -> 71.0 (118.0) MB, 0.8 / 0 ms (+ 47.2 ms in 17 steps since start of marking, biggest step 32.2 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1171995 ms: Mark-sweep 110.7 (151.0) -> 110.7 (151.0) MB, 0.4 / 0 ms (+ 69.2 ms in 17 steps since start of marking, biggest step 54.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1185373 ms: Mark-sweep 159.9 (201.0) -> 159.9 (201.0) MB, 0.5 / 0 ms (+ 92.4 ms in 17 steps since start of marking, biggest step 79.3 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].

@@ -1,0 +1,289 @@
+[31280:0x102004600]        8 ms: Scavenge 2.1 (37.0) -> 2.1 (37.0) MB, 0.7 / 0 ms [allocation failure].
+[31280:0x102004600]        9 ms: Scavenge 2.1 (37.0) -> 2.1 (38.0) MB, 0.6 / 0 ms [allocation failure].
+[31280:0x102004600]      146 ms: Scavenge 3.9 (41.0) -> 3.6 (41.0) MB, 0.8 / 0 ms [allocation failure].
+[31280:0x102004600]      361 ms: Scavenge 4.9 (41.0) -> 4.5 (42.0) MB, 3.0 / 0 ms [allocation failure].
+[31280:0x102004600]      678 ms: Scavenge 5.5 (42.0) -> 5.5 (43.0) MB, 4.4 / 0 ms [allocation failure].
+[31280:0x102004600]     1504 ms: Scavenge 8.5 (43.0) -> 8.5 (44.0) MB, 7.1 / 0 ms [allocation failure].
+[31280:0x102004600]     1719 ms: Scavenge 9.4 (44.0) -> 9.4 (47.0) MB, 9.3 / 0 ms [allocation failure].
+[31280:0x102004600]     3584 ms: Scavenge 16.3 (47.0) -> 16.3 (48.0) MB, 11.1 / 0 ms [allocation failure].
+[31280:0x102004600]     3903 ms: Scavenge 17.3 (48.0) -> 17.3 (55.0) MB, 14.9 / 0 ms [allocation failure].
+[31280:0x102004600]     7967 ms: Scavenge 32.1 (55.0) -> 32.1 (56.0) MB, 33.0 / 0 ms [allocation failure].
+[31280:0x102004600]   104343 ms: Scavenge 386.1 (414.0) -> 385.8 (429.0) MB, 41.2 / 0 ms (+ 257.7 ms in 1242 steps since last GC) [allocation failure].
+[31280:0x102004600]   113809 ms: Mark-sweep 421.0 (465.0) -> 420.7 (466.0) MB, 7.0 / 0 ms (+ 302.4 ms in 1360 steps since start of marking, biggest step 1.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   132169 ms: Mark-sweep 488.2 (534.0) -> 106.7 (156.0) MB, 4.4 / 0 ms (+ 66.2 ms in 17 steps since start of marking, biggest step 51.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   142963 ms: Mark-sweep 146.4 (187.0) -> 146.4 (187.0) MB, 0.8 / 0 ms (+ 83.7 ms in 17 steps since start of marking, biggest step 68.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   157690 ms: Mark-sweep 200.6 (242.0) -> 200.3 (243.0) MB, 0.7 / 0 ms (+ 118.3 ms in 17 steps since start of marking, biggest step 102.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   173478 ms: Mark-sweep 258.3 (301.0) -> 258.3 (301.0) MB, 0.6 / 0 ms (+ 146.4 ms in 17 steps since start of marking, biggest step 132.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   196028 ms: Mark-sweep 341.1 (385.0) -> 341.1 (386.0) MB, 0.7 / 0 ms (+ 187.2 ms in 32 steps since start of marking, biggest step 155.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   214369 ms: Mark-sweep 408.6 (454.0) -> 27.2 (79.0) MB, 0.8 / 0 ms (+ 22.4 ms in 17 steps since start of marking, biggest step 13.3 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   214567 ms: Scavenge 28.1 (79.0) -> 27.9 (79.0) MB, 1.9 / 0 ms [allocation failure].
+[31280:0x102004600]   214675 ms: Scavenge 28.2 (79.0) -> 28.2 (79.0) MB, 1.8 / 0 ms [allocation failure].
+[31280:0x102004600]   214882 ms: Scavenge 28.9 (79.0) -> 28.9 (79.0) MB, 1.7 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   215199 ms: Scavenge 30.1 (79.0) -> 30.1 (80.0) MB, 4.0 / 0 ms (+ 0.9 ms in 10 steps since last GC) [allocation failure].
+[31280:0x102004600]   215415 ms: Scavenge 30.8 (80.0) -> 30.8 (81.0) MB, 5.3 / 0 ms (+ 2.2 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   215739 ms: Scavenge 32.1 (81.0) -> 32.1 (82.0) MB, 4.7 / 0 ms (+ 4.8 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   215956 ms: Scavenge 32.8 (82.0) -> 32.8 (83.0) MB, 5.7 / 0 ms (+ 2.6 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   216378 ms: Scavenge 34.1 (83.0) -> 34.1 (84.0) MB, 5.3 / 0 ms (+ 4.4 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   216489 ms: Scavenge 34.8 (84.0) -> 34.8 (85.0) MB, 5.5 / 0 ms (+ 1.9 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   216909 ms: Scavenge 36.0 (85.0) -> 36.0 (86.0) MB, 5.3 / 0 ms (+ 4.2 ms in 21 steps since last GC) [allocation failure].
+[31280:0x102004600]   217123 ms: Scavenge 36.7 (86.0) -> 36.7 (87.0) MB, 6.0 / 0 ms (+ 2.1 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   217446 ms: Scavenge 38.0 (87.0) -> 38.0 (88.0) MB, 5.1 / 0 ms (+ 4.0 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   217663 ms: Scavenge 38.7 (88.0) -> 38.7 (89.0) MB, 5.9 / 0 ms (+ 2.4 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   217983 ms: Scavenge 40.0 (89.0) -> 40.0 (90.0) MB, 4.7 / 0 ms (+ 4.4 ms in 21 steps since last GC) [allocation failure].
+[31280:0x102004600]   218192 ms: Scavenge 40.7 (90.0) -> 40.7 (91.0) MB, 5.5 / 0 ms (+ 1.8 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   218510 ms: Scavenge 41.9 (91.0) -> 41.9 (92.0) MB, 3.4 / 0 ms (+ 4.1 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   218722 ms: Scavenge 42.6 (92.0) -> 42.6 (93.0) MB, 5.7 / 0 ms (+ 2.1 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   219040 ms: Scavenge 43.9 (93.0) -> 43.9 (94.0) MB, 4.8 / 0 ms (+ 4.6 ms in 21 steps since last GC) [allocation failure].
+[31280:0x102004600]   219251 ms: Scavenge 44.6 (94.0) -> 44.6 (95.0) MB, 4.7 / 0 ms (+ 2.2 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   219255 ms: Mark-sweep 44.7 (95.0) -> 44.7 (84.0) MB, 3.7 / 0 ms (+ 48.8 ms in 244 steps since start of marking, biggest step 0.4 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   219568 ms: Scavenge 45.6 (84.0) -> 45.6 (84.0) MB, 2.5 / 0 ms [allocation failure].
+[31280:0x102004600]   219884 ms: Scavenge 46.7 (84.0) -> 46.7 (84.0) MB, 4.3 / 0 ms [allocation failure].
+[31280:0x102004600]   220090 ms: Scavenge 47.5 (84.0) -> 47.5 (86.0) MB, 4.6 / 0 ms [allocation failure].
+[31280:0x102004600]   220919 ms: Scavenge 50.6 (86.0) -> 50.6 (86.0) MB, 5.7 / 0 ms [allocation failure].
+[31280:0x102004600]   221135 ms: Scavenge 51.5 (86.0) -> 51.5 (90.0) MB, 9.0 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   223116 ms: Scavenge 58.5 (90.0) -> 58.5 (90.0) MB, 15.0 / 0 ms (+ 8.2 ms in 111 steps since last GC) [allocation failure].
+[31280:0x102004600]   223353 ms: Scavenge 59.4 (90.0) -> 59.4 (98.0) MB, 22.2 / 0 ms (+ 4.8 ms in 14 steps since last GC) [allocation failure].
+[31280:0x102004600]   226304 ms: Mark-sweep 70.0 (98.0) -> 70.0 (99.0) MB, 20.7 / 0 ms (+ 71.2 ms in 297 steps since start of marking, biggest step 18.7 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   236395 ms: Mark-sweep 107.4 (136.0) -> 107.3 (147.0) MB, 14.1 / 0 ms (+ 63.8 ms in 18 steps since start of marking, biggest step 33.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   254763 ms: Mark-sweep 174.8 (216.0) -> 174.8 (217.0) MB, 1.0 / 0 ms (+ 112.0 ms in 32 steps since start of marking, biggest step 75.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   275116 ms: Mark-sweep 249.6 (292.0) -> 249.5 (293.0) MB, 0.6 / 0 ms (+ 147.6 ms in 32 steps since start of marking, biggest step 71.7 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   302473 ms: Mark-sweep 349.9 (394.0) -> 349.9 (395.0) MB, 0.7 / 0 ms (+ 210.6 ms in 47 steps since start of marking, biggest step 70.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   320832 ms: Mark-sweep 417.4 (462.0) -> 35.9 (79.0) MB, 3.4 / 0 ms (+ 27.9 ms in 17 steps since start of marking, biggest step 12.9 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   321025 ms: Scavenge 36.9 (79.0) -> 36.6 (79.0) MB, 2.0 / 0 ms [allocation failure].
+[31280:0x102004600]   321444 ms: Scavenge 37.9 (79.0) -> 37.9 (79.0) MB, 3.6 / 0 ms [allocation failure].
+[31280:0x102004600]   321553 ms: Scavenge 38.6 (79.0) -> 38.6 (79.0) MB, 4.0 / 0 ms [allocation failure].
+[31280:0x102004600]   322492 ms: Scavenge 41.8 (79.0) -> 41.8 (79.0) MB, 6.7 / 0 ms [allocation failure].
+[31280:0x102004600]   322706 ms: Scavenge 42.5 (79.0) -> 42.5 (81.0) MB, 7.8 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   324689 ms: Scavenge 49.7 (81.0) -> 49.7 (81.0) MB, 15.8 / 0 ms (+ 9.1 ms in 115 steps since last GC) [allocation failure].
+[31280:0x102004600]   324817 ms: Scavenge 50.4 (81.0) -> 50.4 (89.0) MB, 21.6 / 0 ms (+ 4.7 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   327885 ms: Mark-sweep 61.2 (89.0) -> 61.2 (90.0) MB, 19.7 / 0 ms (+ 66.9 ms in 300 steps since start of marking, biggest step 13.8 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   337876 ms: Mark-sweep 98.3 (127.0) -> 98.1 (138.0) MB, 13.7 / 0 ms (+ 64.1 ms in 19 steps since start of marking, biggest step 21.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   351064 ms: Mark-sweep 146.6 (187.0) -> 146.6 (188.0) MB, 1.1 / 0 ms (+ 96.3 ms in 18 steps since start of marking, biggest step 43.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   371328 ms: Mark-sweep 220.9 (263.0) -> 220.9 (264.0) MB, 0.5 / 0 ms (+ 128.6 ms in 34 steps since start of marking, biggest step 36.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   397731 ms: Mark-sweep 317.8 (361.0) -> 317.8 (362.0) MB, 0.6 / 0 ms (+ 185.5 ms in 49 steps since start of marking, biggest step 39.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   436498 ms: Mark-sweep 461.6 (507.0) -> 461.6 (507.0) MB, 3.0 / 0 ms (+ 285.1 ms in 77 steps since start of marking, biggest step 66.7 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   447253 ms: Mark-sweep 501.7 (548.0) -> 120.2 (167.0) MB, 1.2 / 0 ms (+ 67.0 ms in 17 steps since start of marking, biggest step 55.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   457996 ms: Mark-sweep 160.3 (201.0) -> 160.3 (201.0) MB, 0.6 / 0 ms (+ 84.4 ms in 17 steps since start of marking, biggest step 73.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   477645 ms: Mark-sweep 233.1 (275.0) -> 233.1 (276.0) MB, 0.6 / 0 ms (+ 128.1 ms in 32 steps since start of marking, biggest step 86.5 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   499382 ms: Mark-sweep 314.0 (357.0) -> 314.0 (358.0) MB, 0.7 / 0 ms (+ 177.9 ms in 32 steps since start of marking, biggest step 86.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   527966 ms: Mark-sweep 420.4 (465.0) -> 420.4 (465.0) MB, 1.2 / 0 ms (+ 238.5 ms in 47 steps since start of marking, biggest step 90.9 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   538850 ms: Mark-sweep 460.5 (506.0) -> 79.0 (126.0) MB, 0.8 / 0 ms (+ 50.1 ms in 17 steps since start of marking, biggest step 35.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   549605 ms: Mark-sweep 119.1 (159.0) -> 119.1 (159.0) MB, 0.5 / 0 ms (+ 65.0 ms in 17 steps since start of marking, biggest step 52.9 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   562996 ms: Mark-sweep 169.1 (210.0) -> 169.1 (210.0) MB, 0.5 / 0 ms (+ 94.6 ms in 17 steps since start of marking, biggest step 81.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   577835 ms: Mark-sweep 224.4 (266.0) -> 224.4 (267.0) MB, 0.5 / 0 ms (+ 121.8 ms in 17 steps since start of marking, biggest step 110.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   594253 ms: Mark-sweep 285.4 (328.0) -> 285.4 (329.0) MB, 0.5 / 0 ms (+ 155.0 ms in 17 steps since start of marking, biggest step 143.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   612402 ms: Mark-sweep 352.9 (397.0) -> 352.9 (397.0) MB, 0.6 / 0 ms (+ 188.4 ms in 18 steps since start of marking, biggest step 177.7 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   630758 ms: Mark-sweep 421.6 (467.0) -> 40.1 (85.0) MB, 0.9 / 0 ms (+ 26.1 ms in 17 steps since start of marking, biggest step 13.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   630952 ms: Scavenge 41.1 (85.0) -> 40.8 (85.0) MB, 1.7 / 0 ms [allocation failure].
+[31280:0x102004600]   631054 ms: Scavenge 41.1 (85.0) -> 41.1 (85.0) MB, 1.4 / 0 ms [allocation failure].
+[31280:0x102004600]   631263 ms: Scavenge 41.8 (85.0) -> 41.8 (85.0) MB, 1.1 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   631578 ms: Scavenge 43.1 (85.0) -> 43.1 (86.0) MB, 4.2 / 0 ms (+ 1.1 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   631792 ms: Scavenge 43.8 (86.0) -> 43.8 (87.0) MB, 4.6 / 0 ms (+ 1.6 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   632112 ms: Scavenge 45.0 (87.0) -> 45.0 (88.0) MB, 4.9 / 0 ms (+ 4.1 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   632325 ms: Scavenge 45.8 (88.0) -> 45.8 (89.0) MB, 5.4 / 0 ms (+ 2.7 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   632641 ms: Scavenge 47.0 (89.0) -> 47.0 (90.0) MB, 4.9 / 0 ms (+ 4.6 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   632858 ms: Scavenge 47.7 (90.0) -> 47.7 (91.0) MB, 5.5 / 0 ms (+ 2.4 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   633278 ms: Scavenge 49.0 (91.0) -> 49.0 (92.0) MB, 4.0 / 0 ms (+ 4.4 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   633488 ms: Scavenge 49.7 (92.0) -> 49.7 (93.0) MB, 5.8 / 0 ms (+ 2.1 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   633812 ms: Scavenge 50.9 (93.0) -> 50.9 (94.0) MB, 5.4 / 0 ms (+ 4.2 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   634027 ms: Scavenge 51.7 (94.0) -> 51.7 (95.0) MB, 5.7 / 0 ms (+ 1.7 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   634343 ms: Scavenge 52.9 (95.0) -> 52.9 (96.0) MB, 3.9 / 0 ms (+ 3.7 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   634555 ms: Scavenge 53.6 (96.0) -> 53.6 (97.0) MB, 5.6 / 0 ms (+ 2.3 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   634871 ms: Scavenge 54.9 (97.0) -> 54.9 (98.0) MB, 5.0 / 0 ms (+ 4.3 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   635085 ms: Scavenge 55.6 (98.0) -> 55.6 (99.0) MB, 5.7 / 0 ms (+ 2.3 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   635402 ms: Scavenge 56.8 (99.0) -> 56.8 (100.0) MB, 4.9 / 0 ms (+ 3.7 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   635617 ms: Scavenge 57.6 (100.0) -> 57.6 (101.0) MB, 5.6 / 0 ms (+ 2.5 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   635936 ms: Scavenge 58.8 (101.0) -> 58.8 (102.0) MB, 5.0 / 0 ms (+ 4.5 ms in 20 steps since last GC) [allocation failure].
+[31280:0x102004600]   636147 ms: Scavenge 59.5 (102.0) -> 59.5 (103.0) MB, 5.3 / 0 ms (+ 2.4 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   636567 ms: Mark-sweep 60.7 (103.0) -> 60.8 (99.0) MB, 6.7 / 0 ms (+ 62.3 ms in 295 steps since start of marking, biggest step 4.8 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   636679 ms: Scavenge 61.5 (99.0) -> 61.5 (100.0) MB, 5.4 / 0 ms [allocation failure].
+[31280:0x102004600]   637615 ms: Scavenge 64.7 (100.0) -> 64.7 (101.0) MB, 4.6 / 0 ms [allocation failure].
+[31280:0x102004600]   637828 ms: Scavenge 65.4 (101.0) -> 65.4 (104.0) MB, 6.7 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   639698 ms: Scavenge 72.6 (104.0) -> 72.6 (105.0) MB, 14.8 / 0 ms (+ 7.5 ms in 113 steps since last GC) [allocation failure].
+[31280:0x102004600]   639923 ms: Scavenge 73.3 (105.0) -> 73.3 (112.0) MB, 16.7 / 0 ms (+ 4.5 ms in 12 steps since last GC) [allocation failure].
+[31280:0x102004600]   641610 ms: Mark-sweep 81.4 (112.0) -> 79.1 (113.0) MB, 12.2 / 0 ms (+ 63.3 ms in 256 steps since start of marking, biggest step 26.7 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   643461 ms: Scavenge 89.0 (113.0) -> 86.2 (119.0) MB, 22.5 / 0 ms [allocation failure].
+[31280:0x102004600]   645123 ms: Scavenge 94.8 (119.0) -> 92.4 (126.0) MB, 20.2 / 0 ms [allocation failure].
+[31280:0x102004600]   646687 ms: Mark-sweep 100.0 (126.0) -> 97.9 (132.0) MB, 15.4 / 0 ms (+ 73.8 ms in 122 steps since start of marking, biggest step 67.3 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   648673 ms: Scavenge 108.1 (132.0) -> 105.1 (138.0) MB, 23.3 / 0 ms [allocation failure].
+[31280:0x102004600]   650350 ms: Scavenge 113.6 (138.0) -> 111.2 (145.0) MB, 24.7 / 0 ms [allocation failure].
+[31280:0x102004600]   652244 ms: Scavenge 120.9 (145.0) -> 118.1 (151.0) MB, 25.9 / 0 ms (+ 85.9 ms in 157 steps since last GC) [allocation failure].
+[31280:0x102004600]   653825 ms: Mark-sweep 126.4 (151.0) -> 124.1 (159.0) MB, 20.6 / 0 ms (+ 96.2 ms in 287 steps since start of marking, biggest step 45.2 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   655805 ms: Scavenge 133.9 (159.0) -> 131.0 (164.0) MB, 19.6 / 0 ms [allocation failure].
+[31280:0x102004600]   657473 ms: Scavenge 139.8 (164.0) -> 137.3 (171.0) MB, 21.4 / 0 ms [allocation failure].
+[31280:0x102004600]   659373 ms: Scavenge 146.8 (171.0) -> 144.1 (178.0) MB, 21.6 / 0 ms (+ 12.5 ms in 152 steps since last GC) [allocation failure].
+[31280:0x102004600]   661165 ms: Scavenge 153.0 (178.0) -> 150.5 (185.0) MB, 22.5 / 0 ms (+ 12.6 ms in 143 steps since last GC) [allocation failure].
+[31280:0x102004600]   662962 ms: Scavenge 159.8 (185.0) -> 157.1 (191.0) MB, 22.5 / 0 ms (+ 65.5 ms in 151 steps since last GC) [allocation failure].
+[31280:0x102004600]   664758 ms: Scavenge 166.2 (191.0) -> 163.6 (198.0) MB, 21.2 / 0 ms (+ 12.2 ms in 146 steps since last GC) [allocation failure].
+[31280:0x102004600]   666634 ms: Scavenge 172.9 (198.0) -> 170.2 (204.0) MB, 22.4 / 0 ms (+ 9.2 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   667775 ms: Mark-sweep 176.2 (204.0) -> 174.5 (211.0) MB, 18.3 / 0 ms (+ 154.2 ms in 837 steps since start of marking, biggest step 28.9 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   669934 ms: Scavenge 186.0 (211.0) -> 182.7 (215.0) MB, 20.3 / 0 ms [allocation failure].
+[31280:0x102004600]   671390 ms: Scavenge 190.2 (215.0) -> 188.1 (224.0) MB, 26.1 / 0 ms [allocation failure].
+[31280:0x102004600]   673449 ms: Scavenge 198.4 (224.0) -> 195.5 (229.0) MB, 17.1 / 0 ms [allocation failure].
+[31280:0x102004600]   675006 ms: Scavenge 203.8 (229.0) -> 201.4 (237.0) MB, 22.9 / 0 ms (+ 7.2 ms in 134 steps since last GC) [allocation failure].
+[31280:0x102004600]   676978 ms: Scavenge 211.2 (237.0) -> 208.4 (243.0) MB, 26.1 / 0 ms (+ 10.0 ms in 156 steps since last GC) [allocation failure].
+[31280:0x102004600]   678633 ms: Scavenge 217.2 (243.0) -> 214.7 (250.0) MB, 21.4 / 0 ms (+ 73.6 ms in 143 steps since last GC) [allocation failure].
+[31280:0x102004600]   680507 ms: Scavenge 224.2 (250.0) -> 221.4 (256.0) MB, 22.7 / 0 ms (+ 11.1 ms in 152 steps since last GC) [allocation failure].
+[31280:0x102004600]   682286 ms: Scavenge 230.4 (256.0) -> 227.8 (263.0) MB, 31.7 / 0 ms (+ 10.9 ms in 143 steps since last GC) [allocation failure].
+[31280:0x102004600]   684059 ms: Scavenge 237.2 (263.0) -> 234.5 (270.0) MB, 22.0 / 0 ms (+ 67.9 ms in 153 steps since last GC) [allocation failure].
+[31280:0x102004600]   685845 ms: Scavenge 243.6 (270.0) -> 241.0 (277.0) MB, 31.6 / 0 ms (+ 7.5 ms in 145 steps since last GC) [allocation failure].
+[31280:0x102004600]   687631 ms: Scavenge 250.3 (277.0) -> 247.6 (283.0) MB, 22.5 / 0 ms (+ 22.2 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   688785 ms: Mark-sweep 253.5 (283.0) -> 251.9 (290.0) MB, 20.4 / 0 ms (+ 224.7 ms in 1270 steps since start of marking, biggest step 25.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   691020 ms: Scavenge 263.4 (290.0) -> 260.0 (294.0) MB, 21.1 / 0 ms [allocation failure].
+[31280:0x102004600]   692472 ms: Scavenge 267.6 (294.0) -> 265.4 (302.0) MB, 26.8 / 0 ms [allocation failure].
+[31280:0x102004600]   694525 ms: Scavenge 275.8 (302.0) -> 272.8 (308.0) MB, 17.8 / 0 ms [allocation failure].
+[31280:0x102004600]   696079 ms: Scavenge 281.2 (308.0) -> 278.8 (315.0) MB, 21.7 / 0 ms [allocation failure].
+[31280:0x102004600]   697942 ms: Scavenge 288.6 (315.0) -> 285.8 (321.0) MB, 19.7 / 0 ms (+ 8.5 ms in 156 steps since last GC) [allocation failure].
+[31280:0x102004600]   699704 ms: Scavenge 294.5 (321.0) -> 292.0 (329.0) MB, 21.3 / 0 ms (+ 8.0 ms in 140 steps since last GC) [allocation failure].
+[31280:0x102004600]   701573 ms: Scavenge 301.5 (329.0) -> 298.8 (335.0) MB, 22.8 / 0 ms (+ 62.4 ms in 155 steps since last GC) [allocation failure].
+[31280:0x102004600]   703242 ms: Scavenge 307.8 (335.0) -> 305.2 (342.0) MB, 22.5 / 0 ms (+ 7.9 ms in 143 steps since last GC) [allocation failure].
+[31280:0x102004600]   705096 ms: Scavenge 314.6 (342.0) -> 311.9 (348.0) MB, 22.3 / 0 ms (+ 8.8 ms in 150 steps since last GC) [allocation failure].
+[31280:0x102004600]   706855 ms: Scavenge 321.0 (348.0) -> 318.4 (355.0) MB, 23.9 / 0 ms (+ 67.1 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   708628 ms: Scavenge 327.6 (355.0) -> 325.0 (362.0) MB, 20.5 / 0 ms (+ 11.3 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   710420 ms: Scavenge 334.1 (362.0) -> 331.5 (368.0) MB, 22.8 / 0 ms (+ 30.4 ms in 146 steps since last GC) [allocation failure].
+[31280:0x102004600]   712319 ms: Scavenge 340.7 (368.0) -> 338.1 (375.0) MB, 21.0 / 0 ms (+ 83.8 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   714095 ms: Scavenge 347.3 (375.0) -> 344.6 (382.0) MB, 22.7 / 0 ms (+ 19.7 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   715764 ms: Mark-sweep 353.6 (382.0) -> 351.1 (389.0) MB, 25.8 / 0 ms (+ 327.1 ms in 1623 steps since start of marking, biggest step 49.2 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   717639 ms: Scavenge 360.4 (389.0) -> 357.7 (395.0) MB, 23.1 / 0 ms [allocation failure].
+[31280:0x102004600]   719393 ms: Scavenge 366.8 (395.0) -> 364.2 (402.0) MB, 19.4 / 0 ms [allocation failure].
+[31280:0x102004600]   721153 ms: Scavenge 373.4 (402.0) -> 370.8 (408.0) MB, 19.1 / 0 ms [allocation failure].
+[31280:0x102004600]   722909 ms: Scavenge 379.9 (408.0) -> 377.3 (415.0) MB, 18.5 / 0 ms [allocation failure].
+[31280:0x102004600]   724777 ms: Scavenge 386.5 (415.0) -> 383.9 (422.0) MB, 27.0 / 0 ms [allocation failure].
+[31280:0x102004600]   726541 ms: Scavenge 393.0 (422.0) -> 390.4 (428.0) MB, 24.1 / 0 ms [allocation failure].
+[31280:0x102004600]   728307 ms: Scavenge 399.6 (428.0) -> 397.0 (435.0) MB, 23.3 / 0 ms (+ 8.9 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   730073 ms: Scavenge 406.2 (435.0) -> 403.6 (442.0) MB, 28.5 / 0 ms (+ 8.1 ms in 146 steps since last GC) [allocation failure].
+[31280:0x102004600]   731713 ms: Mark-sweep 411.9 (442.0) -> 28.1 (63.0) MB, 15.4 / 0 ms (+ 26.3 ms in 427 steps since start of marking, biggest step 1.0 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   733581 ms: Scavenge 37.9 (63.0) -> 35.0 (67.0) MB, 23.9 / 0 ms [allocation failure].
+[31280:0x102004600]   735338 ms: Scavenge 43.8 (67.0) -> 41.3 (74.0) MB, 20.9 / 0 ms [allocation failure].
+[31280:0x102004600]   736786 ms: Mark-sweep 49.0 (74.0) -> 46.8 (80.0) MB, 16.9 / 0 ms (+ 46.0 ms in 124 steps since start of marking, biggest step 19.5 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   738748 ms: Scavenge 57.0 (80.0) -> 54.1 (86.0) MB, 19.6 / 0 ms [allocation failure].
+[31280:0x102004600]   740402 ms: Scavenge 62.5 (86.0) -> 60.1 (93.0) MB, 18.2 / 0 ms [allocation failure].
+[31280:0x102004600]   742267 ms: Scavenge 69.8 (93.0) -> 67.1 (99.0) MB, 23.5 / 0 ms (+ 56.9 ms in 159 steps since last GC) [allocation failure].
+[31280:0x102004600]   744045 ms: Scavenge 75.9 (99.0) -> 73.4 (106.0) MB, 25.2 / 0 ms (+ 9.8 ms in 141 steps since last GC) [allocation failure].
+[31280:0x102004600]   745832 ms: Scavenge 82.8 (106.0) -> 80.1 (113.0) MB, 22.6 / 0 ms (+ 12.6 ms in 151 steps since last GC) [allocation failure].
+[31280:0x102004600]   746985 ms: Mark-sweep 85.6 (113.0) -> 84.1 (120.0) MB, 17.4 / 0 ms (+ 88.9 ms in 540 steps since start of marking, biggest step 13.3 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   749274 ms: Scavenge 95.8 (120.0) -> 92.5 (124.0) MB, 21.2 / 0 ms [allocation failure].
+[31280:0x102004600]   750638 ms: Scavenge 99.8 (124.0) -> 97.7 (132.0) MB, 23.8 / 0 ms [allocation failure].
+[31280:0x102004600]   752742 ms: Scavenge 108.2 (132.0) -> 105.2 (137.0) MB, 23.5 / 0 ms (+ 65.4 ms in 174 steps since last GC) [allocation failure].
+[31280:0x102004600]   754428 ms: Scavenge 113.4 (137.0) -> 111.1 (145.0) MB, 23.8 / 0 ms (+ 12.8 ms in 132 steps since last GC) [allocation failure].
+[31280:0x102004600]   756320 ms: Scavenge 120.9 (145.0) -> 118.1 (151.0) MB, 21.9 / 0 ms (+ 16.2 ms in 158 steps since last GC) [allocation failure].
+[31280:0x102004600]   757071 ms: Mark-sweep 121.9 (151.0) -> 120.9 (159.0) MB, 18.7 / 0 ms (+ 131.3 ms in 524 steps since start of marking, biggest step 11.6 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   759592 ms: Scavenge 133.9 (159.0) -> 130.1 (161.0) MB, 19.3 / 0 ms [allocation failure].
+[31280:0x102004600]   760952 ms: Scavenge 136.6 (161.0) -> 134.7 (170.0) MB, 23.9 / 0 ms [allocation failure].
+[31280:0x102004600]   763040 ms: Scavenge 145.9 (170.0) -> 142.7 (175.0) MB, 20.8 / 0 ms [allocation failure].
+[31280:0x102004600]   764594 ms: Scavenge 150.5 (175.0) -> 148.3 (183.0) MB, 19.5 / 0 ms [allocation failure].
+[31280:0x102004600]   766600 ms: Scavenge 158.4 (183.0) -> 155.5 (189.0) MB, 20.5 / 0 ms (+ 12.0 ms in 162 steps since last GC) [allocation failure].
+[31280:0x102004600]   768289 ms: Scavenge 164.0 (189.0) -> 161.6 (196.0) MB, 25.1 / 0 ms (+ 12.6 ms in 136 steps since last GC) [allocation failure].
+[31280:0x102004600]   770177 ms: Scavenge 171.3 (196.0) -> 168.5 (202.0) MB, 21.7 / 0 ms (+ 66.3 ms in 162 steps since last GC) [allocation failure].
+[31280:0x102004600]   771975 ms: Scavenge 177.3 (202.0) -> 174.8 (209.0) MB, 22.8 / 0 ms (+ 14.3 ms in 141 steps since last GC) [allocation failure].
+[31280:0x102004600]   773767 ms: Scavenge 184.3 (209.0) -> 181.6 (216.0) MB, 22.0 / 0 ms (+ 16.1 ms in 151 steps since last GC) [allocation failure].
+[31280:0x102004600]   775581 ms: Scavenge 190.6 (216.0) -> 188.0 (223.0) MB, 28.6 / 0 ms (+ 63.4 ms in 149 steps since last GC) [allocation failure].
+[31280:0x102004600]   777482 ms: Scavenge 197.3 (223.0) -> 194.6 (229.0) MB, 22.3 / 0 ms (+ 17.9 ms in 149 steps since last GC) [allocation failure].
+[31280:0x102004600]   779308 ms: Scavenge 203.7 (229.0) -> 201.1 (236.0) MB, 27.4 / 0 ms (+ 41.7 ms in 145 steps since last GC) [allocation failure].
+[31280:0x102004600]   779321 ms: Mark-sweep 201.6 (236.0) -> 201.5 (243.0) MB, 11.9 / 0 ms (+ 245.0 ms in 1198 steps since start of marking, biggest step 12.0 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   782344 ms: Scavenge 216.9 (243.0) -> 212.5 (243.0) MB, 15.7 / 0 ms [allocation failure].
+[31280:0x102004600]   783295 ms: Scavenge 217.2 (243.0) -> 215.8 (254.0) MB, 24.3 / 0 ms [allocation failure].
+[31280:0x102004600]   785703 ms: Scavenge 228.2 (254.0) -> 224.7 (258.0) MB, 17.9 / 0 ms [allocation failure].
+[31280:0x102004600]   787076 ms: Scavenge 231.6 (258.0) -> 229.6 (267.0) MB, 22.2 / 0 ms [allocation failure].
+[31280:0x102004600]   789158 ms: Scavenge 240.4 (267.0) -> 237.3 (272.0) MB, 19.1 / 0 ms [allocation failure].
+[31280:0x102004600]   790842 ms: Scavenge 245.4 (272.0) -> 243.1 (279.0) MB, 27.6 / 0 ms [allocation failure].
+[31280:0x102004600]   792736 ms: Scavenge 253.1 (279.0) -> 250.2 (285.0) MB, 23.8 / 0 ms [allocation failure].
+[31280:0x102004600]   794434 ms: Scavenge 258.8 (285.0) -> 256.4 (292.0) MB, 23.0 / 0 ms (+ 11.2 ms in 138 steps since last GC) [allocation failure].
+[31280:0x102004600]   796334 ms: Scavenge 266.0 (292.0) -> 263.2 (299.0) MB, 24.4 / 0 ms (+ 13.3 ms in 153 steps since last GC) [allocation failure].
+[31280:0x102004600]   798139 ms: Scavenge 272.1 (299.0) -> 269.6 (306.0) MB, 22.4 / 0 ms (+ 61.5 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   800037 ms: Scavenge 279.0 (306.0) -> 276.3 (312.0) MB, 22.8 / 0 ms (+ 13.5 ms in 151 steps since last GC) [allocation failure].
+[31280:0x102004600]   801819 ms: Scavenge 285.3 (312.0) -> 282.7 (319.0) MB, 23.2 / 0 ms (+ 11.5 ms in 144 steps since last GC) [allocation failure].
+[31280:0x102004600]   803608 ms: Scavenge 292.0 (319.0) -> 289.4 (326.0) MB, 21.5 / 0 ms (+ 66.4 ms in 156 steps since last GC) [allocation failure].
+[31280:0x102004600]   805402 ms: Scavenge 298.5 (326.0) -> 295.9 (332.0) MB, 28.1 / 0 ms (+ 18.0 ms in 145 steps since last GC) [allocation failure].
+[31280:0x102004600]   807223 ms: Scavenge 305.1 (332.0) -> 302.5 (339.0) MB, 20.9 / 0 ms (+ 40.9 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   809047 ms: Scavenge 311.6 (339.0) -> 309.0 (346.0) MB, 23.3 / 0 ms (+ 98.5 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   810019 ms: Mark-sweep 313.6 (346.0) -> 312.3 (353.0) MB, 17.6 / 0 ms (+ 355.5 ms in 1404 steps since start of marking, biggest step 26.1 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   812422 ms: Scavenge 324.8 (353.0) -> 321.2 (356.0) MB, 19.4 / 0 ms [allocation failure].
+[31280:0x102004600]   813785 ms: Scavenge 328.0 (356.0) -> 326.1 (365.0) MB, 29.0 / 0 ms [allocation failure].
+[31280:0x102004600]   815857 ms: Scavenge 336.9 (365.0) -> 333.8 (370.0) MB, 18.9 / 0 ms [allocation failure].
+[31280:0x102004600]   817456 ms: Scavenge 341.8 (370.0) -> 339.5 (377.0) MB, 27.9 / 0 ms [allocation failure].
+[31280:0x102004600]   819441 ms: Scavenge 349.6 (377.0) -> 346.7 (383.0) MB, 22.9 / 0 ms [allocation failure].
+[31280:0x102004600]   821127 ms: Scavenge 355.3 (383.0) -> 352.8 (391.0) MB, 21.0 / 0 ms [allocation failure].
+[31280:0x102004600]   823004 ms: Scavenge 362.5 (391.0) -> 359.7 (397.0) MB, 23.6 / 0 ms [allocation failure].
+[31280:0x102004600]   824763 ms: Scavenge 368.6 (397.0) -> 366.0 (404.0) MB, 20.3 / 0 ms [allocation failure].
+[31280:0x102004600]   826629 ms: Scavenge 375.4 (404.0) -> 372.8 (410.0) MB, 20.7 / 0 ms [allocation failure].
+[31280:0x102004600]   828320 ms: Scavenge 381.8 (410.0) -> 379.2 (417.0) MB, 27.0 / 0 ms (+ 11.3 ms in 144 steps since last GC) [allocation failure].
+[31280:0x102004600]   830216 ms: Scavenge 388.5 (417.0) -> 385.9 (424.0) MB, 22.4 / 0 ms (+ 13.5 ms in 149 steps since last GC) [allocation failure].
+[31280:0x102004600]   832016 ms: Scavenge 395.0 (424.0) -> 392.4 (430.0) MB, 27.2 / 0 ms (+ 67.2 ms in 151 steps since last GC) [allocation failure].
+[31280:0x102004600]   833831 ms: Scavenge 401.6 (430.0) -> 399.0 (437.0) MB, 25.9 / 0 ms (+ 16.5 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   835637 ms: Scavenge 408.1 (437.0) -> 405.5 (444.0) MB, 22.3 / 0 ms (+ 12.9 ms in 146 steps since last GC) [allocation failure].
+[31280:0x102004600]   837532 ms: Scavenge 414.7 (444.0) -> 412.1 (450.0) MB, 20.3 / 0 ms (+ 65.1 ms in 153 steps since last GC) [allocation failure].
+[31280:0x102004600]   839334 ms: Scavenge 421.2 (450.0) -> 418.6 (457.0) MB, 27.8 / 0 ms (+ 14.4 ms in 146 steps since last GC) [allocation failure].
+[31280:0x102004600]   841164 ms: Scavenge 427.8 (457.0) -> 425.2 (464.0) MB, 26.5 / 0 ms (+ 41.6 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   842988 ms: Scavenge 434.4 (464.0) -> 431.7 (470.0) MB, 21.6 / 0 ms (+ 98.1 ms in 149 steps since last GC) [allocation failure].
+[31280:0x102004600]   844807 ms: Scavenge 440.9 (470.0) -> 438.3 (477.0) MB, 21.1 / 0 ms (+ 41.3 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   846738 ms: Scavenge 447.5 (477.0) -> 444.9 (484.0) MB, 22.1 / 0 ms (+ 48.2 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   848579 ms: Scavenge 454.1 (484.0) -> 451.4 (490.0) MB, 26.9 / 0 ms (+ 119.5 ms in 149 steps since last GC) [allocation failure].
+[31280:0x102004600]   849551 ms: Mark-sweep 456.4 (490.0) -> 455.0 (497.0) MB, 19.3 / 0 ms (+ 569.6 ms in 1854 steps since start of marking, biggest step 37.0 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   851948 ms: Scavenge 467.2 (497.0) -> 463.7 (501.0) MB, 19.6 / 0 ms [allocation failure].
+[31280:0x102004600]   853315 ms: Scavenge 470.7 (501.0) -> 468.7 (509.0) MB, 19.9 / 0 ms [allocation failure].
+[31280:0x102004600]   855405 ms: Scavenge 479.4 (509.0) -> 476.4 (515.0) MB, 19.5 / 0 ms [allocation failure].
+[31280:0x102004600]   856971 ms: Scavenge 484.5 (515.0) -> 482.2 (522.0) MB, 21.5 / 0 ms [allocation failure].
+[31280:0x102004600]   858939 ms: Scavenge 492.1 (522.0) -> 489.3 (528.0) MB, 20.4 / 0 ms [allocation failure].
+[31280:0x102004600]   860600 ms: Scavenge 497.9 (528.0) -> 495.4 (535.0) MB, 22.6 / 0 ms [allocation failure].
+[31280:0x102004600]   862484 ms: Scavenge 505.0 (535.0) -> 502.3 (542.0) MB, 21.2 / 0 ms [allocation failure].
+[31280:0x102004600]   864259 ms: Scavenge 511.2 (542.0) -> 508.6 (549.0) MB, 21.4 / 0 ms [allocation failure].
+[31280:0x102004600]   866029 ms: Scavenge 518.0 (549.0) -> 515.3 (555.0) MB, 21.8 / 0 ms [allocation failure].
+[31280:0x102004600]   867802 ms: Scavenge 524.4 (555.0) -> 521.8 (562.0) MB, 21.3 / 0 ms [allocation failure].
+[31280:0x102004600]   869681 ms: Scavenge 531.1 (562.0) -> 528.4 (568.0) MB, 23.9 / 0 ms [allocation failure].
+[31280:0x102004600]   871465 ms: Scavenge 537.5 (568.0) -> 534.9 (575.0) MB, 20.6 / 0 ms [allocation failure].
+[31280:0x102004600]   873251 ms: Scavenge 544.2 (575.0) -> 541.5 (582.0) MB, 22.0 / 0 ms (+ 11.4 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   875041 ms: Scavenge 550.7 (582.0) -> 548.1 (589.0) MB, 27.8 / 0 ms (+ 11.9 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   876828 ms: Scavenge 557.3 (589.0) -> 554.7 (595.0) MB, 22.8 / 0 ms (+ 69.2 ms in 152 steps since last GC) [allocation failure].
+[31280:0x102004600]   878720 ms: Scavenge 563.8 (595.0) -> 561.2 (602.0) MB, 22.7 / 0 ms (+ 12.3 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   880512 ms: Scavenge 570.4 (602.0) -> 567.8 (608.0) MB, 26.9 / 0 ms (+ 13.2 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   882321 ms: Scavenge 576.9 (608.0) -> 574.3 (615.0) MB, 27.4 / 0 ms (+ 70.0 ms in 150 steps since last GC) [allocation failure].
+[31280:0x102004600]   884122 ms: Scavenge 583.5 (615.0) -> 580.9 (622.0) MB, 21.8 / 0 ms (+ 15.8 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   885926 ms: Scavenge 590.1 (622.0) -> 587.4 (629.0) MB, 23.6 / 0 ms (+ 38.8 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   886360 ms: Mark-sweep 589.3 (629.0) -> 207.4 (249.0) MB, 14.8 / 0 ms (+ 250.4 ms in 1214 steps since start of marking, biggest step 14.9 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600]   889185 ms: Scavenge 221.7 (249.0) -> 217.6 (249.0) MB, 16.8 / 0 ms [allocation failure].
+[31280:0x102004600]   890236 ms: Scavenge 223.1 (249.0) -> 221.5 (259.0) MB, 26.0 / 0 ms [allocation failure].
+[31280:0x102004600]   892526 ms: Scavenge 233.4 (259.0) -> 230.0 (263.0) MB, 19.2 / 0 ms [allocation failure].
+[31280:0x102004600]   893986 ms: Scavenge 237.3 (263.0) -> 235.2 (272.0) MB, 20.9 / 0 ms [allocation failure].
+[31280:0x102004600]   896079 ms: Scavenge 245.7 (272.0) -> 242.7 (277.0) MB, 19.5 / 0 ms [allocation failure].
+[31280:0x102004600]   897654 ms: Scavenge 250.9 (277.0) -> 248.6 (285.0) MB, 21.4 / 0 ms [allocation failure].
+[31280:0x102004600]   899547 ms: Scavenge 258.5 (285.0) -> 255.6 (291.0) MB, 19.9 / 0 ms [allocation failure].
+[31280:0x102004600]   901333 ms: Scavenge 264.3 (291.0) -> 261.9 (298.0) MB, 22.5 / 0 ms (+ 9.9 ms in 139 steps since last GC) [allocation failure].
+[31280:0x102004600]   903222 ms: Scavenge 271.4 (298.0) -> 268.7 (304.0) MB, 22.2 / 0 ms (+ 10.0 ms in 153 steps since last GC) [allocation failure].
+[31280:0x102004600]   904919 ms: Scavenge 277.6 (304.0) -> 275.1 (311.0) MB, 27.3 / 0 ms (+ 70.6 ms in 147 steps since last GC) [allocation failure].
+[31280:0x102004600]   906822 ms: Scavenge 284.4 (311.0) -> 281.7 (318.0) MB, 26.7 / 0 ms (+ 13.1 ms in 150 steps since last GC) [allocation failure].
+[31280:0x102004600]   908614 ms: Scavenge 290.8 (318.0) -> 288.2 (324.0) MB, 22.3 / 0 ms (+ 11.2 ms in 144 steps since last GC) [allocation failure].
+[31280:0x102004600]   910414 ms: Scavenge 297.5 (324.0) -> 294.8 (331.0) MB, 26.6 / 0 ms (+ 67.3 ms in 153 steps since last GC) [allocation failure].
+[31280:0x102004600]   912200 ms: Scavenge 304.0 (331.0) -> 301.3 (338.0) MB, 24.8 / 0 ms (+ 12.0 ms in 145 steps since last GC) [allocation failure].
+[31280:0x102004600]   914113 ms: Scavenge 310.6 (338.0) -> 307.9 (344.0) MB, 25.9 / 0 ms (+ 33.5 ms in 148 steps since last GC) [allocation failure].
+[31280:0x102004600]   924960 ms: Mark-sweep 349.0 (383.0) -> 348.0 (390.0) MB, 14.0 / 0 ms (+ 364.1 ms in 1267 steps since start of marking, biggest step 47.7 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   943283 ms: Mark-sweep 415.5 (458.0) -> 34.0 (78.0) MB, 4.4 / 0 ms (+ 23.0 ms in 17 steps since start of marking, biggest step 11.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   943476 ms: Scavenge 35.0 (78.0) -> 34.7 (78.0) MB, 1.8 / 0 ms [allocation failure].
+[31280:0x102004600]   943891 ms: Scavenge 36.0 (78.0) -> 36.0 (78.0) MB, 2.8 / 0 ms [allocation failure].
+[31280:0x102004600]   944001 ms: Scavenge 36.7 (78.0) -> 36.7 (78.0) MB, 4.1 / 0 ms [allocation failure].
+[31280:0x102004600]   944940 ms: Scavenge 39.9 (78.0) -> 39.9 (78.0) MB, 5.8 / 0 ms [allocation failure].
+[31280:0x102004600]   945146 ms: Scavenge 40.6 (78.0) -> 40.6 (79.0) MB, 4.7 / 0 ms [allocation failure].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   947117 ms: Scavenge 47.8 (79.0) -> 47.8 (79.0) MB, 14.8 / 0 ms (+ 6.7 ms in 114 steps since last GC) [allocation failure].
+[31280:0x102004600]   947238 ms: Scavenge 48.5 (79.0) -> 48.5 (87.0) MB, 15.7 / 0 ms (+ 2.7 ms in 11 steps since last GC) [allocation failure].
+[31280:0x102004600]   950365 ms: Mark-sweep 59.7 (87.0) -> 59.7 (88.0) MB, 18.2 / 0 ms (+ 48.6 ms in 306 steps since start of marking, biggest step 9.1 ms) [GC interrupt] [GC in old space requested].
+[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+[31280:0x102004600]   965531 ms: Mark-sweep 115.9 (144.0) -> 115.7 (156.0) MB, 13.9 / 0 ms (+ 74.5 ms in 38 steps since start of marking, biggest step 12.6 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]   986144 ms: Mark-sweep 191.6 (233.0) -> 191.6 (234.0) MB, 1.2 / 0 ms (+ 119.0 ms in 34 steps since start of marking, biggest step 33.1 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1014717 ms: Mark-sweep 296.5 (339.0) -> 296.5 (339.0) MB, 2.8 / 0 ms (+ 183.0 ms in 49 steps since start of marking, biggest step 37.2 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1035802 ms: Mark-sweep 373.9 (418.0) -> 373.9 (418.0) MB, 1.1 / 0 ms (+ 228.6 ms in 50 steps since start of marking, biggest step 46.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1056560 ms: Mark-sweep 450.2 (496.0) -> 68.7 (115.0) MB, 0.9 / 0 ms (+ 44.1 ms in 17 steps since start of marking, biggest step 28.9 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1069301 ms: Mark-sweep 115.7 (156.0) -> 115.7 (157.0) MB, 0.5 / 0 ms (+ 66.7 ms in 17 steps since start of marking, biggest step 55.4 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1088642 ms: Mark-sweep 186.6 (228.0) -> 186.6 (228.0) MB, 0.5 / 0 ms (+ 105.1 ms in 32 steps since start of marking, biggest step 59.5 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1114565 ms: Mark-sweep 281.6 (324.0) -> 281.6 (324.0) MB, 0.6 / 0 ms (+ 163.7 ms in 47 steps since start of marking, biggest step 70.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1142896 ms: Mark-sweep 385.3 (430.0) -> 385.3 (430.0) MB, 0.7 / 0 ms (+ 211.9 ms in 47 steps since start of marking, biggest step 80.8 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1161220 ms: Mark-sweep 452.5 (498.0) -> 71.0 (118.0) MB, 0.8 / 0 ms (+ 47.2 ms in 17 steps since start of marking, biggest step 32.2 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1171995 ms: Mark-sweep 110.7 (151.0) -> 110.7 (151.0) MB, 0.4 / 0 ms (+ 69.2 ms in 17 steps since start of marking, biggest step 54.0 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].
+[31280:0x102004600]  1185373 ms: Mark-sweep 159.9 (201.0) -> 159.9 (201.0) MB, 0.5 / 0 ms (+ 92.4 ms in 17 steps since start of marking, biggest step 79.3 ms) [Incremental marking task: finalize incremental marking] [GC in old space requested].

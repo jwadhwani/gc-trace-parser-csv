@@ -1,0 +1,2 @@
+PID,Isolate Id,Time from initialization,GC Event,Total size of objects before GC,Total size of objects after GC,Total memory allocated before GC,Total memory allocated after GC,Time in GC,Time in external callbacks,Marking info,Reason for GC trigger,Reason for GC
+31280,0x102004600,113809,Mark-sweep,421.0,420.7,465.0,466.0,7.0,0,"+ 302.4 ms in 1360 steps since start of marking, biggest step 1.6 ms",Incremental marking task: finalize incremental marking,GC in old space requested

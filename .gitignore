@@ -1,0 +1,7 @@
+.idea/
+/scratch
+/coverage/
+/eslint/
+/node_modules/
+.DS_Store
+

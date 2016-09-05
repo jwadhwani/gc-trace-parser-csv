@@ -1,0 +1,55 @@
+{
+  "name": "gc-trace-parser-csv",
+  "version": "1.0.0",
+  "description": "Parser for the V8's -gc_trace option with export to csv",
+  "main": "index.js",
+  "bin": {
+    "gc-trace-parser": "./index.js"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "csv-stringify": "^1.0.4",
+    "underscore": "^1.8.3",
+    "yargs": "^4.8.1"
+  },
+  "scripts": {
+    "compile": "babel --source-maps -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "./node_modules/mocha/bin/mocha ./test/*.js",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*.js",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwadhwani/gc-trace-parser-csv.git"
+  },
+  "author": "Jayesh Wadhwani <jwadhwani@gmail.com>",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwadhwani/gc-trace-parser-csv/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
+  },
+  "keywords": [
+    "v8",
+    "performance",
+    "memory leaks",
+    "garbage collection",
+    "trace parser",
+    "csv"
+  ],
+  "homepage": "https://github.com/jwadhwani/gc-trace-parser-csv#readme"
+}

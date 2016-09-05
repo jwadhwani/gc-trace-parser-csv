@@ -1,0 +1,47 @@
+PID,Isolate Id,Time from initialization,GC Event,Total size of objects before GC,Total size of objects after GC,Total memory allocated before GC,Total memory allocated after GC,Time in GC,Time in external callbacks,Marking info,Reason for GC trigger,Reason for GC
+31280,0x102004600,8,Scavenge,2.1,2.1,37.0,37.0,0.7,0,,allocation failure,
+31280,0x102004600,9,Scavenge,2.1,2.1,37.0,38.0,0.6,0,,allocation failure,
+31280,0x102004600,146,Scavenge,3.9,3.6,41.0,41.0,0.8,0,,allocation failure,
+31280,0x102004600,361,Scavenge,4.9,4.5,41.0,42.0,3.0,0,,allocation failure,
+31280,0x102004600,678,Scavenge,5.5,5.5,42.0,43.0,4.4,0,,allocation failure,
+31280,0x102004600,1504,Scavenge,8.5,8.5,43.0,44.0,7.1,0,,allocation failure,
+31280,0x102004600,1719,Scavenge,9.4,9.4,44.0,47.0,9.3,0,,allocation failure,
+31280,0x102004600,3584,Scavenge,16.3,16.3,47.0,48.0,11.1,0,,allocation failure,
+31280,0x102004600,3903,Scavenge,17.3,17.3,48.0,55.0,14.9,0,,allocation failure,
+31280,0x102004600,7967,Scavenge,32.1,32.1,55.0,56.0,33.0,0,,allocation failure,
+31280,0x102004600,104343,Scavenge,386.1,385.8,414.0,429.0,41.2,0,+ 257.7 ms in 1242 steps since last GC,allocation failure,
+31280,0x102004600,113809,Mark-sweep,421.0,420.7,465.0,466.0,7.0,0,"+ 302.4 ms in 1360 steps since start of marking, biggest step 1.6 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,132169,Mark-sweep,488.2,106.7,534.0,156.0,4.4,0,"+ 66.2 ms in 17 steps since start of marking, biggest step 51.1 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,142963,Mark-sweep,146.4,146.4,187.0,187.0,0.8,0,"+ 83.7 ms in 17 steps since start of marking, biggest step 68.4 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,157690,Mark-sweep,200.6,200.3,242.0,243.0,0.7,0,"+ 118.3 ms in 17 steps since start of marking, biggest step 102.8 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,173478,Mark-sweep,258.3,258.3,301.0,301.0,0.6,0,"+ 146.4 ms in 17 steps since start of marking, biggest step 132.0 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,196028,Mark-sweep,341.1,341.1,385.0,386.0,0.7,0,"+ 187.2 ms in 32 steps since start of marking, biggest step 155.0 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,214369,Mark-sweep,408.6,27.2,454.0,79.0,0.8,0,"+ 22.4 ms in 17 steps since start of marking, biggest step 13.3 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,214567,Scavenge,28.1,27.9,79.0,79.0,1.9,0,,allocation failure,
+31280,0x102004600,214675,Scavenge,28.2,28.2,79.0,79.0,1.8,0,,allocation failure,
+31280,0x102004600,214882,Scavenge,28.9,28.9,79.0,79.0,1.7,0,,allocation failure,
+31280,0x102004600,215199,Scavenge,30.1,30.1,79.0,80.0,4.0,0,+ 0.9 ms in 10 steps since last GC,allocation failure,
+31280,0x102004600,215415,Scavenge,30.8,30.8,80.0,81.0,5.3,0,+ 2.2 ms in 12 steps since last GC,allocation failure,
+31280,0x102004600,215739,Scavenge,32.1,32.1,81.0,82.0,4.7,0,+ 4.8 ms in 20 steps since last GC,allocation failure,
+31280,0x102004600,947117,Scavenge,47.8,47.8,79.0,79.0,14.8,0,+ 6.7 ms in 114 steps since last GC,allocation failure,
+31280,0x102004600,947238,Scavenge,48.5,48.5,79.0,87.0,15.7,0,+ 2.7 ms in 11 steps since last GC,allocation failure,
+31280,0x102004600,950365,Mark-sweep,59.7,59.7,87.0,88.0,18.2,0,"+ 48.6 ms in 306 steps since start of marking, biggest step 9.1 ms",GC interrupt,GC in old space requested
+31280,0x102004600,965531,Mark-sweep,115.9,115.7,144.0,156.0,13.9,0,"+ 74.5 ms in 38 steps since start of marking, biggest step 12.6 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,986144,Mark-sweep,191.6,191.6,233.0,234.0,1.2,0,"+ 119.0 ms in 34 steps since start of marking, biggest step 33.1 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1014717,Mark-sweep,296.5,296.5,339.0,339.0,2.8,0,"+ 183.0 ms in 49 steps since start of marking, biggest step 37.2 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1035802,Mark-sweep,373.9,373.9,418.0,418.0,1.1,0,"+ 228.6 ms in 50 steps since start of marking, biggest step 46.8 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1056560,Mark-sweep,450.2,68.7,496.0,115.0,0.9,0,"+ 44.1 ms in 17 steps since start of marking, biggest step 28.9 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1069301,Mark-sweep,115.7,115.7,156.0,157.0,0.5,0,"+ 66.7 ms in 17 steps since start of marking, biggest step 55.4 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1088642,Mark-sweep,186.6,186.6,228.0,228.0,0.5,0,"+ 105.1 ms in 32 steps since start of marking, biggest step 59.5 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1114565,Mark-sweep,281.6,281.6,324.0,324.0,0.6,0,"+ 163.7 ms in 47 steps since start of marking, biggest step 70.8 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1142896,Mark-sweep,385.3,385.3,430.0,430.0,0.7,0,"+ 211.9 ms in 47 steps since start of marking, biggest step 80.8 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1161220,Mark-sweep,452.5,71.0,498.0,118.0,0.8,0,"+ 47.2 ms in 17 steps since start of marking, biggest step 32.2 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1171995,Mark-sweep,110.7,110.7,151.0,151.0,0.4,0,"+ 69.2 ms in 17 steps since start of marking, biggest step 54.0 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+31280,0x102004600,1185373,Mark-sweep,159.9,159.9,201.0,201.0,0.5,0,"+ 92.4 ms in 17 steps since start of marking, biggest step 79.3 ms",Incremental marking task: finalize incremental marking,GC in old space requested
+,
+,
+,
+Index,Non matched lines
+21,[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+25,[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate
+29,[31280:0x102004600] Increasing marking speed to 3 due to high promotion rate

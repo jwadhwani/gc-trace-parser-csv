@@ -1,0 +1,7 @@
+PID,Isolate Id,Time from initialization,GC Event,Total size of objects before GC,Total size of objects after GC,Total memory allocated before GC,Total memory allocated after GC,Time in GC,Time in external callbacks,Marking info,Reason for GC trigger,Reason for GC
+31280,0x102004600,8,Scavenge,2.1,2.1,37.0,37.0,0.7,0,,allocation failure,
+,
+,
+,
+Index,Non matched lines
+1,"[31280102004600]        8 ms: Scavenge 2.1 (37.0) -> 2.1 (37.0) MB, 0.7 / 0 ms [allocation failure]."

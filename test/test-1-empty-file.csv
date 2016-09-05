@@ -1,0 +1,1 @@
+PID,Isolate Id,Time from initialization,GC Event,Total size of objects before GC,Total size of objects after GC,Total memory allocated before GC,Total memory allocated after GC,Time in GC,Time in external callbacks,Marking info,Reason for GC trigger,Reason for GC
