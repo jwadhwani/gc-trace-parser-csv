@@ -90,9 +90,11 @@ node -trace_gc ./examples/example-1-simple-loop.js > ./examples/example-1-simple
 gc-trace-parser-csv -i ./examples/example-1-simple-loop.log -o ./example-1-simple-loop.csv
 ```
 
-#### create and analyze plot of example-1-simple-loop.csv using Plotly
+#### create and analyze plot of example-1-simple-loop.csv
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jwadhwani/4.embed"></iframe>
+You can view the chart in [Plotly](https://plot.ly/~jwadhwani/4/example-1-simple-loop/)
+
+
 
 __Closure__
 
@@ -142,10 +144,9 @@ node -trace_gc ./examples/example-2-closure.js > ./examples/example-2-closure.lo
 gc-trace-parser-csv -i ./examples/example-2-closure.log -o ./examples/example-2-closure.csv
 ```
 
-#### create and analyze plot using Plotly
+#### create and analyze plot
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jwadhwani/7.embed"></iframe>
-
+You can view the chart in [Plotly](https://plot.ly/~jwadhwani/7/example-2-closure/)
 
 ## Testing
 
