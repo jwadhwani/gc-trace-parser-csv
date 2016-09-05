@@ -6,9 +6,7 @@ A command line utility to parse and convert captured gc traces to CSV format for
 
 
 [![Build Status](https://travis-ci.org/jwadhwani/gc-trace-parser-csv.svg?branch=master)](https://travis-ci.org/jwadhwani/gc-trace-parser-csv)
-[![NPM version](http://img.shields.io/npm/v/gc-trace-parser-csv.svg)](https://www.npmjs.org/package/gc-trace-parser-csv)
-[![Coverage Status](https://coveralls.io/repos/jwadhwani/gc-trace-parser-csv/badge.svg)](https://coveralls.io/r/jwadhwani/gc-trace-parser-csv)
-
+[![Coverage Status](https://coveralls.io/repos/github/jwadhwani/gc-trace-parser-csv/badge.svg)](https://coveralls.io/github/jwadhwani/gc-trace-parser-csv)
 
 ## Background
 
