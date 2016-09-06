@@ -1,7 +1,5 @@
 # gc-trace-parser-csv
 
-> ***This module is currently under development***
-
 A command line utility to parse and convert captured gc traces to CSV format for further analysis.
 
 
@@ -22,7 +20,7 @@ $ npm install -g gc-trace-parser-csv
 
 ## Usage:
 ```bash
-./gc-trace-parser-csv -i [input log file] -o [output csv file]
+gc-trace-parser-csv -i [input log file] -o [output csv file]
 ```
 
 ## Typical usage:
@@ -90,11 +88,9 @@ node -trace_gc ./examples/example-1-simple-loop.js > ./examples/example-1-simple
 gc-trace-parser-csv -i ./examples/example-1-simple-loop.log -o ./example-1-simple-loop.csv
 ```
 
-#### create and analyze plot of example-1-simple-loop.csv
+#### Create and analyze plot of example-1-simple-loop.csv
 
-You can view the chart in [Plotly](https://plot.ly/~jwadhwani/4/example-1-simple-loop/)
-
-
+You can view the chart in [Plotly](https://plot.ly/~jwadhwani/4/example-1-simple-loop/). Plotly is one of the simplest charting tools I have seen.
 
 __Closure__
 
@@ -147,6 +143,25 @@ gc-trace-parser-csv -i ./examples/example-2-closure.log -o ./examples/example-2-
 #### create and analyze plot
 
 You can view the chart in [Plotly](https://plot.ly/~jwadhwani/7/example-2-closure/)
+
+
+## Creating your own command line utility
+
+You could use the parser in your app or code like any other module
+
+```js
+"use strict";
+const parser = require('trace-parser-csv');
+
+const f = 'path/to/your-trace-log-file.log';
+parser(f, function (err, res) {
+    if(err) throw err;
+    
+    //res contains the csv data
+});
+
+
+```
 
 ## Testing
 
