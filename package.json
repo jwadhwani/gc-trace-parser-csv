@@ -1,6 +1,6 @@
 {
   "name": "gc-trace-parser-csv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parser for the V8's -gc_trace option with export to csv",
   "main": "index.js",
   "bin": {
